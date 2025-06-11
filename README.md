@@ -2,9 +2,10 @@
 
 [![版本](https://img.shields.io/badge/版本-2.0.0-blue.svg)](https://github.com/kk12-30/proxy_forwarder)
 [![Python](https://img.shields.io/badge/Python-3.6+-green.svg)](https://www.python.org/)
-[![许可证](https://img.shields.io/badge/许可证-MIT-yellow.svg)](LICENSE)
 
 一个灵活的HTTP/HTTPS代理转发工具，支持流量复制、白名单过滤和Burp Suite集成，专为安全测试设计。
+
+适配Scan-X https://github.com/kk12-30/Scan-X
 
 ## 功能特性
 
