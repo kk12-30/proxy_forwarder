@@ -23,7 +23,7 @@
 ### 基本用法
 
 ```bash
-python proxy_forwarder.py -l 127.0.0.1:8080 -u 127.0.0.1:7777
+proxy_forwarder.exe -l 127.0.0.1:8080 -u 127.0.0.1:7777
 ```
 
 ### 参数说明
@@ -52,7 +52,7 @@ python proxy_forwarder.py -l 127.0.0.1:8080 -u 127.0.0.1:7777 -w example.com
 a) 运行代理转发器:
 
 ```bash
-python proxy_forwarder.py -l 127.0.0.1:8080 -u 127.0.0.1:7777 -w example.com --burp-mode
+proxy_forwarder.exe -l 127.0.0.1:8080 -u 127.0.0.1:7777 -w example.com --burp-mode
 ```
 
 b) 在Burp Suite中配置(User options -> Connections -> Downstream Proxy Servers):
