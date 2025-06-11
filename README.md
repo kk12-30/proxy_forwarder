@@ -44,7 +44,7 @@ proxy_forwarder.exe -l 127.0.0.1:8080 -u 127.0.0.1:7777
 #### 1. 作为独立代理
 
 ```bash
-python proxy_forwarder.py -l 127.0.0.1:8080 -u 127.0.0.1:7777 -w example.com
+proxy_forwarder.exe -l 127.0.0.1:8080 -u 127.0.0.1:7777 -w example.com
 ```
 
 #### 2. 与Burp Suite集成
